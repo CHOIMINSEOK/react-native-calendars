@@ -19,7 +19,6 @@ export default class AgendaScreen extends Component {
         renderItem={this.renderItem.bind(this)}
         renderEmptyDate={this.renderEmptyDate.bind(this)}
         rowHasChanged={this.rowHasChanged.bind(this)}
-        enableInfiniteScrollingForPast={true}
         // markingType={'period'}
         // markedDates={{
         //    '2017-05-08': {textColor: '#666'},

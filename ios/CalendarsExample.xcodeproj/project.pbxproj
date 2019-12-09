@@ -40,7 +40,6 @@
 		5E9157361DD0AC6A00FF2AA8 /* libRCTAnimation.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5E9157331DD0AC6500FF2AA8 /* libRCTAnimation.a */; };
 		832341BD1AAA6AB300B99B32 /* libRCTText.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 832341B51AAA6A8300B99B32 /* libRCTText.a */; };
 		BACCAA9AD2623CC15806F02B /* libPods-CalendarsExample.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C68AD48F85533570BE2335EA /* libPods-CalendarsExample.a */; };
-		DF5E5BBBFE6BB67BB3F19224 /* libPods-CalendarsExampleTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 74EF9DCBEF878A313FA65523 /* libPods-CalendarsExampleTests.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -334,13 +333,10 @@
 		4D983A3CE8EEF4AF708B8019 /* Pods-CalendarsExample-tvOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CalendarsExample-tvOS.release.xcconfig"; path = "Target Support Files/Pods-CalendarsExample-tvOS/Pods-CalendarsExample-tvOS.release.xcconfig"; sourceTree = "<group>"; };
 		5D93D75C00154C59274FE89E /* libPods-CalendarsExample-tvOSTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-CalendarsExample-tvOSTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		5E91572D1DD0AC6500FF2AA8 /* RCTAnimation.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RCTAnimation.xcodeproj; path = "../node_modules/react-native/Libraries/NativeAnimation/RCTAnimation.xcodeproj"; sourceTree = "<group>"; };
-		74EF9DCBEF878A313FA65523 /* libPods-CalendarsExampleTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-CalendarsExampleTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		78C398B01ACF4ADC00677621 /* RCTLinking.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RCTLinking.xcodeproj; path = "../node_modules/react-native/Libraries/LinkingIOS/RCTLinking.xcodeproj"; sourceTree = "<group>"; };
 		832341B01AAA6A8300B99B32 /* RCTText.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RCTText.xcodeproj; path = "../node_modules/react-native/Libraries/Text/RCTText.xcodeproj"; sourceTree = "<group>"; };
 		982391FF9FB86857A628840C /* Pods-CalendarsExample-tvOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CalendarsExample-tvOS.debug.xcconfig"; path = "Target Support Files/Pods-CalendarsExample-tvOS/Pods-CalendarsExample-tvOS.debug.xcconfig"; sourceTree = "<group>"; };
-		AC897BA667FD0C3E9D8F0D63 /* Pods-CalendarsExampleTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CalendarsExampleTests.debug.xcconfig"; path = "Target Support Files/Pods-CalendarsExampleTests/Pods-CalendarsExampleTests.debug.xcconfig"; sourceTree = "<group>"; };
 		C68AD48F85533570BE2335EA /* libPods-CalendarsExample.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-CalendarsExample.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		EF4683684367395045561C12 /* Pods-CalendarsExampleTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CalendarsExampleTests.release.xcconfig"; path = "Target Support Files/Pods-CalendarsExampleTests/Pods-CalendarsExampleTests.release.xcconfig"; sourceTree = "<group>"; };
 		EF58906124F2602DF92D1079 /* Pods-CalendarsExample-tvOSTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CalendarsExample-tvOSTests.release.xcconfig"; path = "Target Support Files/Pods-CalendarsExample-tvOSTests/Pods-CalendarsExample-tvOSTests.release.xcconfig"; sourceTree = "<group>"; };
 		F437D091B67B0F0E9A569F4B /* Pods-CalendarsExample-tvOSTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CalendarsExample-tvOSTests.debug.xcconfig"; path = "Target Support Files/Pods-CalendarsExample-tvOSTests/Pods-CalendarsExample-tvOSTests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -351,7 +347,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				140ED2AC1D01E1AD002B40FF /* libReact.a in Frameworks */,
-				DF5E5BBBFE6BB67BB3F19224 /* libPods-CalendarsExampleTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -525,7 +520,6 @@
 				C68AD48F85533570BE2335EA /* libPods-CalendarsExample.a */,
 				1277A2D5198F5EA937DF293F /* libPods-CalendarsExample-tvOS.a */,
 				5D93D75C00154C59274FE89E /* libPods-CalendarsExample-tvOSTests.a */,
-				74EF9DCBEF878A313FA65523 /* libPods-CalendarsExampleTests.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -609,8 +603,6 @@
 				4D983A3CE8EEF4AF708B8019 /* Pods-CalendarsExample-tvOS.release.xcconfig */,
 				F437D091B67B0F0E9A569F4B /* Pods-CalendarsExample-tvOSTests.debug.xcconfig */,
 				EF58906124F2602DF92D1079 /* Pods-CalendarsExample-tvOSTests.release.xcconfig */,
-				AC897BA667FD0C3E9D8F0D63 /* Pods-CalendarsExampleTests.debug.xcconfig */,
-				EF4683684367395045561C12 /* Pods-CalendarsExampleTests.release.xcconfig */,
 			);
 			name = Pods;
 			path = Pods;
@@ -623,7 +615,6 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "CalendarsExampleTests" */;
 			buildPhases = (
-				B9B132225F60F2B1428493B7 /* [CP] Check Pods Manifest.lock */,
 				00E356EA1AD99517003FC87E /* Sources */,
 				00E356EB1AD99517003FC87E /* Frameworks */,
 				00E356EC1AD99517003FC87E /* Resources */,
@@ -1119,28 +1110,6 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		B9B132225F60F2B1428493B7 /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-CalendarsExampleTests-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
 		C00BF4655178EC17F49C1C9E /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -1252,7 +1221,6 @@
 /* Begin XCBuildConfiguration section */
 		00E356F61AD99517003FC87E /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = AC897BA667FD0C3E9D8F0D63 /* Pods-CalendarsExampleTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				GCC_PREPROCESSOR_DEFINITIONS = (
@@ -1274,7 +1242,6 @@
 		};
 		00E356F71AD99517003FC87E /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = EF4683684367395045561C12 /* Pods-CalendarsExampleTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				COPY_PHASE_STRIP = NO;

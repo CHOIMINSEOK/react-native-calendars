@@ -159,28 +159,31 @@ class ReactComp extends Component {
       return {reservations: [], scrollPosition: 0};
     }
     let reservations = [];
-    if (this.state.reservations && this.state.reservations.length) {
-      const iterator = this.state.reservations[0].day.clone();
-      while (iterator.getTime() < props.selectedDay.getTime()) {
-        const res = this.getReservationsForDay(iterator, props);
-        if (!res) {
-          reservations = [];
-          break;
-        } else {
-          reservations = reservations.concat(res);
-        }
-        iterator.addDays(1);
-      }
-    }
-    const scrollPosition = reservations.length;
-    const iterator = props.selectedDay.clone();
-    for (let i = 0; i < 31; i++) {
-      const res = this.getReservationsForDay(iterator, props);
-      if (res) {
-        reservations = reservations.concat(res);
-      }
-      iterator.addDays(1);
-    }
+    const res = this.getReservationsForDay(props.selectedDay, props);
+    reservations = reservations.concat(res);
+    const scrollPosition = 0;
+    // if (this.state.reservations && this.state.reservations.length) {
+    //   const iterator = this.state.reservations[0].day.clone();
+    //   while (iterator.getTime() < props.selectedDay.getTime()) {
+    //     const res = this.getReservationsForDay(iterator, props);
+    //     if (!res) {
+    //       reservations = [];
+    //       break;
+    //     } else {
+    //       reservations = reservations.concat(res);
+    //     }
+    //     iterator.addDays(1);
+    //   }
+    // }
+    // const scrollPosition = reservations.length;
+    // const iterator = props.selectedDay.clone();
+    // for (let i = 0; i < 31; i++) {
+    //   const res = this.getReservationsForDay(iterator, props);
+    //   if (res) {
+    //     reservations = reservations.concat(res);
+    //   }
+    //   iterator.addDays(1);
+    // }
 
     return {reservations, scrollPosition};
   }
